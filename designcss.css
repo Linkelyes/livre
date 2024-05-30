@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.book-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-item {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+}
+
+.book-item .rank {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background: #ff9900;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.book-item img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.book-item h3 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.book-item .author,
+.book-item .rating,
+.book-item .reviews {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.book-item .rating span,
+.book-item .reviews span {
+    font-weight: bold;
+}
+
+.amazon-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.amazon-link:hover {
+    background: #cc7a00;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
